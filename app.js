@@ -17,7 +17,7 @@ const app = express();
 
 mongoose
   .connect(
-    "mongodb+srv://halilkocoglu98:hCUHhyONJo20BK8y@cluster0.yye6efj.mongodb.net/clean-blog?retryWrites=true&w=majority",
+    "mongodbURI",
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
